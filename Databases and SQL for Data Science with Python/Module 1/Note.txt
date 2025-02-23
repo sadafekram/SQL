@@ -10,4 +10,20 @@ A set of software tools for the data in the database is called a database manage
 
 Examples of relational database management systems are MySQL, Oracle database, DB2 warehouse, and DB2 on Cloud. For the majority of people using a database, there are five simple commands to create a table, Insert data to populate the table, Select data from the table, Update data in the table, Delete data from the table.
 
+SELECT statement usage
+SELECT is classified as a Database Query command used to retrieve information from a database table.
+
+There are various forms in which a SELECT statement is used.
+
+The general syntax of a SELECT statement retrieves the data under the listed columns from Table_1. The code is:
+SELECT COLUMN1, COLUMN2, ... FROM TABLE_1 ;
+
+To retrieve all columns from a table, use " * " instead of specifying individual column names. The code below retrieves the entire table.
+
+SELECT * FROM TABLE_1 ;
+
+Use the WHERE clause to filter the required data based on a predicate. The code below filters the response to only the entries that match the predicate.
+
+SELECT <COLUMNS> FROM TABLE_1 WHERE <predicate> ;
+
 
