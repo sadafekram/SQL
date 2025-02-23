@@ -19,11 +19,32 @@ The general syntax of a SELECT statement retrieves the data under the listed col
 SELECT COLUMN1, COLUMN2, ... FROM TABLE_1 ;
 
 To retrieve all columns from a table, use " * " instead of specifying individual column names. The code below retrieves the entire table.
-
 SELECT * FROM TABLE_1 ;
 
 Use the WHERE clause to filter the required data based on a predicate. The code below filters the response to only the entries that match the predicate.
-
 SELECT <COLUMNS> FROM TABLE_1 WHERE <predicate> ;
+
+COUNT is a built-in database function that retrieves the number of rows that match the query criteria. For example, get the total number of rows in a given table.
+SELECT COUNT(*) FROM tablename
+
+DISTINCT is used to remove duplicate values from a result set. Example, to retrieve unique values in a column.
+SELECT DISTINCT columnname FROM tablename.
+
+LIMIT is used for restricting the number of rows retrieved from the database. Example, retrieve just the first 10 rows in a table.
+SELECT * FROM tablename LIMIT 10
+
+we want to retrieve 15 rows from the table starting from row 11.
+SELECT * FROM FilmLocations LIMIT 15 OFFSET 10;
+
+The INSERT statement is used to add new rows to a table. The INSERT statement is one of the data manipulation language statements. Data manipulation language statements or DML statements are used to read and modify data.
+INSERT INTO table_name (column1, column2, ... )
+VALUES (value1, value2, ... );
+
+The UPDATE statement is one of the data manipulation language or DML statements. DML statements are used to read and modify data. 
+UPDATE [TableName] SET [ColumnName] = [Value] ]> WHERE [Condition]
+Note that if you do not specify the WHERE clause, all the rows in the table will be updated.
+
+The DELETE statement is one of the data manipulation language statements used to read and modify data.
+DELETE FROM [TABLEName] WHERE [Condition]
 
 
