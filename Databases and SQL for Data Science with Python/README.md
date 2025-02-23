@@ -1,0 +1,1 @@
+In this folder, I store what I learn from the "Databases and SQL for Data Science with Python" course by IBM on Coursera website.

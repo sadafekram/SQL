@@ -1,0 +1,13 @@
+SQL is a language used for relational databases to query or get data out of a database.
+
+It is the short for its original name, Structured Query Language.
+
+There are different kinds of databases of different requirements. The data can be stored in various forms. When data is stored in tabular form, the data is organized in tables like in a spreadsheet, which is columns and rows, that's relational database.
+
+In a relational database, you can form relationships between tables.
+
+A set of software tools for the data in the database is called a database management system, or DBMS, for short. The terms database, database server, database system, data server and database management systems are often used interchangeably. For relational databases, it's called a relational database management system or RDBMS. RDBMS is a set of software tools that controls the data, such as access, organization, and storage.
+
+Examples of relational database management systems are MySQL, Oracle database, DB2 warehouse, and DB2 on Cloud. For the majority of people using a database, there are five simple commands to create a table, Insert data to populate the table, Select data from the table, Update data in the table, Delete data from the table.
+
+
