@@ -50,5 +50,10 @@ Physical storage independence goes even deeper, meaning that the way data is **i
 So, the relational model ensures that applications remain **unaffected** by changes in storage, schema, or indexing, making it easier to maintain and scale databases over time.  
 
 ---
+An entity relationship data model, or ER data model, is an alternative to a relational data model.
+
+![Entity relationship diagram](image/entity relationship diagram.png)
+
+Using a simplified library database as an example, this figure shows an entity relationship diagram or ERD that represents entities called tables and their relationships. In the library example, we have books. A book can be written by one or many authors. The library can have one or many copies of a book. Each copy can be borrowed by only one borrower at a time. 
 
 ---
