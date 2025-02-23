@@ -18,7 +18,6 @@ I don't understand this part:
 What are **data independence, physical data independence, and physical storage independence**?  
 How does a table provide them?  
 
----
 
 ## 1. Data Independence  
 Data independence means that changes in one level of a database should not affect other levels. The relational model provides data independence because it separates how data is stored from how it is used.  
@@ -36,7 +35,6 @@ For example, if the database moves from one type of storage (e.g., HDD to SSD) o
 ## 4. Physical Storage Independence  
 Physical storage independence goes even deeper, meaning that the way data is **internally stored on disk** (e.g., row-based vs. column-based storage, compression techniques, or distributed storage) **does not affect how the tables are designed or how users interact with them**.  
 
----
 
 ## How Tables Provide These Forms of Independence  
 
@@ -50,3 +48,7 @@ Physical storage independence goes even deeper, meaning that the way data is **i
   The database engine can optimize storage (e.g., using indexes, partitioning, caching) without changing the table design.  
 
 So, the relational model ensures that applications remain **unaffected** by changes in storage, schema, or indexing, making it easier to maintain and scale databases over time.  
+
+---
+
+---
