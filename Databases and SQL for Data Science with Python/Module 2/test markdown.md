@@ -26,11 +26,7 @@ Data independence means that changes in one level of a database should not affec
 ## 2. Logical Data Independence  
 Logical data independence means that changes in the database schema (such as adding a new column to a table or modifying relationships between tables) **do not affect applications or queries that use the data**.  
 
-For example, if you have a table:  
-
-and later you add a new column:  
-
-Existing queries that fetch `id, name, salary` will continue to work without modification.  
+For example, if you have a table `Employees(id, name, salary)` and later you add a new column `address`, existing queries that fetch `id, name, salary` will continue to work without modification.  
 
 ## 3. Physical Data Independence  
 Physical data independence means that changes in how data is physically stored **do not affect the logical structure of the database**.  
