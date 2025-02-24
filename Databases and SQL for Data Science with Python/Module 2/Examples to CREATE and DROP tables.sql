@@ -31,3 +31,14 @@ CREATE TABLE COUNTRY (
 );
 
 -- In the above example, the ID column has the NOT NULL constraint added after the datatype, meaning that it cannot contain a NULL or an empty value. This is added since the database does not allow Primary Keys to have NULL values.
+
+-- For example, consider that you wish to drop the contents of the table COUNTRY if a table exists in the dataset with the same name. In such a case, the code for the last example becomes
+
+DROP TABLE COUNTRY;
+CREATE TABLE COUNTRY (
+   ID int NOT NULL,
+   CCODE char(2),
+   Name varchar(60)
+   PRIMARY KEY (ID)
+);
+
