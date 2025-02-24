@@ -108,3 +108,9 @@ The entity attributes will be the columns of the tables. Each table is assigned 
 ---
 
 Now you know that the key advantage of the relational model is logical and physical data independence and storage independence. Entities are independent objects which can have multiple characteristics called attributes. When mapping to a relational database, entities are represented as tables and attributes map to columns. Common data types include characters such as char and VAR char, numbers such as integer and decimal, and timestamps including date and time. A primary key uniquely identifies a specific row in a table and prevents duplication of data.
+
+---
+# Types of SQL statements (DDL vs. DML)
+
+SQL statements fall into two different categories: Data Definition Language statements and Data Manipulation Language statements. Data Definition Language (or DDL) statements are used to define, change, or drop database objects such as tables. Common DDL statement types include CREATE, ALTER, TRUNCATE, and DROP. CREATE: which is used for creating tables and defining its columns; ALTER: is used for altering tables including adding and dropping columns and modifying their datatypes; TRUNCATE: is used for deleting data in a table but not the table itself; DROP: is used for deleting tables. Data Manipulation Language (or DML) statements are used to read and modify data in tables. These are also sometimes referred to as CRUD operations, that is, Create, Read, Update and Delete rows in a table. Common DML statement types include INSERT, SELECT, UPDATE, and DELETE. INSERT: is used for inserting a row or several rows of data into a table; SELECT: reads or selects row or rows from a table; UPDATE: edits row or rows in a table; And DELETE: removes a row or rows of data from a table.
+
