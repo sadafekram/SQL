@@ -115,3 +115,9 @@ Now you know that the key advantage of the relational model is logical and physi
 SQL statements fall into two different categories: Data Definition Language statements and Data Manipulation Language statements. Data Definition Language (or DDL) statements are used to define, change, or drop database objects such as tables. Common DDL statement types include CREATE, ALTER, TRUNCATE, and DROP. CREATE: which is used for creating tables and defining its columns; ALTER: is used for altering tables including adding and dropping columns and modifying their datatypes; TRUNCATE: is used for deleting data in a table but not the table itself; DROP: is used for deleting tables. Data Manipulation Language (or DML) statements are used to read and modify data in tables. These are also sometimes referred to as CRUD operations, that is, Create, Read, Update and Delete rows in a table. Common DML statement types include INSERT, SELECT, UPDATE, and DELETE. INSERT: is used for inserting a row or several rows of data into a table; SELECT: reads or selects row or rows from a table; UPDATE: edits row or rows in a table; And DELETE: removes a row or rows of data from a table.
 
 Sometimes you might want to just delete the data in a table rather than deleting the table itself. While you can use the delete statement without a where clause. To do this, it is generally quicker and more efficient to truncate the table. Instead, you use the truncate table statement to delete all of the rows in a table.
+
+---
+
+MySQL is a Relational Database Management System (RDBMS) designed to efficiently store, manipulate, and retrieve data.
+
+---
