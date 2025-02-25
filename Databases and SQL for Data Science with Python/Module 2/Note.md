@@ -121,3 +121,34 @@ Sometimes you might want to just delete the data in a table rather than deleting
 MySQL is a Relational Database Management System (RDBMS) designed to efficiently store, manipulate, and retrieve data.
 
 ---
+
+Question 4
+Which of the following queries will change the data type of an existing column (phone) to the varchar data type?
+
+ALTER TABLE author ALTER COLUMN phone SET TYPE VARCHAR(20); (My answer)
+ALTER TABLE author ALTER COLUMN phone DATA TYPE = VARCHAR(20);
+ALTER COLUMN phone SET DATA TYPE VARCHAR(20);
+ALTER TABLE author MODIFY phone VARCHAR(20); 
+
+Incorrect
+Incorrect. The keyword DATA is missing after SET.
+
+----
+
+4.
+Question 4
+Which of the following queries will change the data type of an existing column (phone) to the varchar data type?
+
+ALTER COLUMN phone SET DATA TYPE VARCHAR(20);
+ALTER TABLE author ALTER COLUMN phone SET TYPE VARCHAR(20);
+ALTER TABLE author ALTER COLUMN phone DATA TYPE = VARCHAR(20); (My answer)
+ALTER TABLE author MODIFY phone VARCHAR(20);
+
+Incorrect
+Incorrect. The keyword SET is missing before specifying the data type.
+
+----
+
+Correct answer is `ALTER TABLE author MODIFY phone VARCHAR(20);`
+
+---
