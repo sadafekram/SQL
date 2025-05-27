@@ -42,3 +42,4 @@ SELECT Firstname, Lastname, Country
 FROM Author
 WHERE Country IN ('AU','BR');
 ```
+
